@@ -4,6 +4,13 @@ python:
 
 before_install:
    - mkdir -p build/html
+   - yum install -y wget unzi
+   - wget http://jaist.dl.sourceforge.jp/vlgothic/62375/VLGothic-20141206.zip
+   - unzip VLGothic-20141206.zip
+   - cd VLGothic
+   - sudo cp *.ttf /usr/share/fonts/
+   - fc-cache
+   - cd ..
 
 install: pip install -q -r requirements.txt
 

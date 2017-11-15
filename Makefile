@@ -18,8 +18,3 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-
-pdf:
-	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) build/pdf
-	@echo
-	@echo "Build finished. The PDF files are in build/pdf."

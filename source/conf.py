@@ -174,8 +174,7 @@ extensions = [
     'sphinxcontrib.nwdiag',
     'sphinxcontrib.rackdiag',
     'sphinxcontrib.packetdiag',
-    'sphinx.ext.autodoc',
-    'rst2pdf.pdfbuilder'
+    'sphinx.ext.autodoc'
 ]
 
 blockdiag_html_image_format = 'SVG'
