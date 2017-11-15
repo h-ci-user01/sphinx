@@ -14,7 +14,9 @@ before_install:
 
 install: pip install -q -r requirements.txt
 
-script: make html
+script: 
+   - make html
+   - ls -l build/html
 
 notifications:
     slack: h-itg-dev:4z5R67svHYtxSBd3o6dsZHrT
