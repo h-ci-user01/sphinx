@@ -1,1 +1,1 @@
-ReadMeを作成。
+ReadMeを作成。hubot
