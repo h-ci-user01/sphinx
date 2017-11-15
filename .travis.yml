@@ -4,6 +4,7 @@ python:
 
 before_install:
    - mkdir -p build/html
+   - mkdir source/_static
    - wget http://jaist.dl.sourceforge.jp/vlgothic/62375/VLGothic-20141206.zip
    - unzip VLGothic-20141206.zip
    - cd VLGothic
