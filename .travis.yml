@@ -4,7 +4,7 @@ python:
 
 before_install:
    - mkdir -p build/html
-   - yum install -y wget unzi
+   - sudo yum install -y wget unzi
    - wget http://jaist.dl.sourceforge.jp/vlgothic/62375/VLGothic-20141206.zip
    - unzip VLGothic-20141206.zip
    - cd VLGothic
